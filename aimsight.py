@@ -1,4 +1,5 @@
 import pygame, random
+from fire import shot 
 
 class Aimsight(pygame.sprite.Sprite):
   def __init__(self, type, x, y):
@@ -19,4 +20,5 @@ class Aimsight(pygame.sprite.Sprite):
     self.x = x
     self.y = y
 
-  
+  def add_shot():
+    shot.add_bullet(x, y)
